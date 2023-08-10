@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+/* it helps to remove navvigation of inc and decrease of add to cart */
+/* for crome ,safari ,edge, opera  etc */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button
+{
+    -webkit-appearance: none;
+    margin:0;
+}
+
+.greenColor{
+    color: rgb(62, 196, 62);
+}
+.redColor{
+    color: rgb(255, 74, 74);
+}
