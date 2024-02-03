@@ -1,0 +1,56 @@
+footer{
+    margin-top:20vmax;
+    padding:2 vmax;
+    background: rgb(232, 162, 162);
+    display: flex;
+    align-items: center;
+}
+
+.leftfooter{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leftfooter >h4{
+
+}
+.leftfooter> p{
+    text-align: center;
+}
+.leftfooter >img{
+    width: 10vmax;
+    margin: 1.2vmax;
+    cursor: pointer;
+}
+.midfooter{
+    width: 60%;
+    text-align: center;
+}
+.midfooter>h1{
+    font-size: 4vmax;
+    color: crimson;
+    
+}
+.midfooter>p{
+    max-width: 60%;
+    margin: 1vmax auto;
+}
+.rightfooter{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightfooter >h4 {
+    font-size: 1.4vmax;
+    text-decoration: underline;
+}
+
+.rightfooter >a{
+    text-decoration: none;
+    font-size: 1.3bvmax;
+    color:aquamarine;
+    margin:0.5vmax;
+}
